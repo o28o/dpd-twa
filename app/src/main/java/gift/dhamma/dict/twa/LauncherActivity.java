@@ -15,6 +15,7 @@
  */
 package gift.dhamma.dict.twa;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Build;
@@ -42,13 +43,20 @@ public class LauncherActivity
         }
     }
 
-    @Override
-    protected Uri getLaunchingUrl() {
-        // Get the original launch Url.
-        Uri uri = super.getLaunchingUrl();
+@Override
+protected Uri getLaunchingUrl() {
+    // Get the original launch Url.
+    Uri uri = super.getLaunchingUrl();
 
-        
-
-        return uri;
+    // Handle shared text from share intent
+    if (Intent.ACTION_SEND.equals(getIntent().getAction()) && getIntent().getType() != null && getIntent().getType().equals("text/plain")) {
+        String sharedText = getIntent().getStringExtra(Intent.EXTRA_TEXT);
+        if (sharedText != null) {
+            uri = Uri.parse("https://dict.dhamma.gift/?q=" + Uri.encode(sharedText));
+        }
     }
+
+    return uri;
+
+}
 }

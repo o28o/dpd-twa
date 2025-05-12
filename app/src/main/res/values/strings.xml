@@ -33,4 +33,16 @@
     }]
     
   </string>  
+  
+   <!-- Share Target configuration matching web app's manifest -->
+  <string name="shareTarget">
+    {
+      "action": "/",
+      "method": "GET",
+      "enctype": "application/x-www-form-urlencoded",
+      "params": {
+        "text": "q"
+      }
+    }
+  </string>
 </resources>

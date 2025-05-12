@@ -15,4 +15,9 @@
 -->
 <resources>
     <color name="shortcut_background">#F5F5F5</color>
+	 <color name="light_primary">#00b2ff</color>
+    <color name="dark_primary">#00121a</color>
+    <color name="theme_color">#1a8bdb</color>
+    <color name="background_color">#e5f7ff</color>
+    <color name="background_color_dark">#00121a</color>
 </resources>
