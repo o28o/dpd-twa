@@ -1,0 +1,67 @@
+{
+  "packageId": "gift.dhamma.dict.twa",
+  "host": "dict.dhamma.gift",
+  "name": "DPD with Dhamma.Gift UI improvements",
+  "launcherName": "DGift DPD",
+  "display": "standalone",
+  "themeColor": "#00131B",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#E4F8FF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://dict.dhamma.gift/static/dpd-logo.svg",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/mnt/c/soft/twa-dpd/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Dhamma.Gift",
+      "shortName": "Dhamma.Gift",
+      "url": "https://dict.dhamma.gift/static/openDG.html",
+      "chosenIconUrl": "https://dict.dhamma.gift/static/dg_icon_white-192.png"
+    },
+    {
+      "name": "DPD Russian",
+      "shortName": "DPD Russian",
+      "url": "https://dict.dhamma.gift/ru/",
+      "chosenIconUrl": "https://dict.dhamma.gift/static/dpd-dark-icon.svg"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://dict.dhamma.gift/static/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": true
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://dict.dhamma.gift/",
+  "minSdkVersion": 21,
+  "shareTarget": {
+    "action": "https://dict.dhamma.gift/search_html",
+    "method": "GET",
+    "params": {
+      "text": "q"
+    }
+  },
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "appVersion": "1"
+}

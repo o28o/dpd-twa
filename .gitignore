@@ -1,0 +1,25 @@
+# Android/Java build files
+.gradle/
+build/
+app/build/
+
+# APK/AAB artifacts
+*.apk
+*.aab
+*.idsig
+
+# Keystore (никогда не коммить!)
+*.keystore
+
+# Gradle wrappers
+gradlew
+gradlew.bat
+gradle/
+
+# Misc
+manifest-checksum.txt
+
+# IDE files (если ты используешь Android Studio)
+.idea/
+*.iml
+
