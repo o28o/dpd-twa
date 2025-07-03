@@ -19,8 +19,8 @@
     "path": "/mnt/c/soft/twa/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1",
-  "appVersionCode": 1,
+  "appVersionName": "2",
+  "appVersionCode": 2,
   "shortcuts": [
     {
       "name": "Dhamma.Gift",
@@ -34,7 +34,6 @@
       "url": "https://dict.dhamma.gift/static/openDG.html?url=https://www.aksharamukha.com/converter",
       "chosenIconUrl": "https://dict.dhamma.gift/static/dpd-dark-icon.svg"
     },
-
     {
       "name": "Dharmamitra.org",
       "shortName": "Dharmamitra.org",
@@ -72,5 +71,5 @@
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
   "protocolHandlers": [],
-  "appVersion": "1"
+  "appVersion": "2"
 }

@@ -39,7 +39,7 @@ def twaManifest = [
     // - short_name: Shorter string used if |name| is too long.
     // - url: Absolute path of the URL to launch the app with (e.g '/create').
     // - icon: Name of the resource in the drawable folder to use as an icon.
-    shortcuts: [[name:'Dhamma.Gift', short_name:'Dhamma.Gift', url:'https://dict.dhamma.gift/static/openDG.html', icon:'shortcut_0'],[name:'DPD Russian', short_name:'DPD Russian', url:'https://dict.dhamma.gift/ru/', icon:'shortcut_1']],
+    shortcuts: [[name:'Dhamma.Gift', short_name:'Dhamma.Gift', url:'https://dict.dhamma.gift/static/openDG.html', icon:'shortcut_0'],[name:'Aksharamukha.com', short_name:'Aksharamukha.com', url:'https://dict.dhamma.gift/static/openDG.html?url=https://www.aksharamukha.com/converter', icon:'shortcut_1'],[name:'Dharmamitra.org', short_name:'Dharmamitra.org', url:'https://dict.dhamma.gift/static/openDG.html?url=https://dharmamitra.org/', icon:'shortcut_2'],[name:'DPD Russian', short_name:'DPD Russian', url:'https://dict.dhamma.gift/ru/', icon:'shortcut_3']],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
     splashScreenFadeOutDuration: 300,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
@@ -69,6 +69,8 @@ android {
         // The URL that will be used when launching the TWA from the Android Launcher
         def launchUrl = "https://" + twaManifest.hostName + twaManifest.launchUrl
         resValue "string", "launchUrl", launchUrl
+
+        
 
         
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
@@ -148,6 +150,8 @@ android {
 
         resValue "bool", "enableSiteSettingsShortcut", twaManifest.enableSiteSettingsShortcut
         resValue "string", "orientation", twaManifest.orientation
+
+        
     }
     buildTypes {
         release {
@@ -206,7 +210,7 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-        
-        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.0'
+    
+        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.2'
     
 }
