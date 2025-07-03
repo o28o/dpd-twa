@@ -26,8 +26,8 @@ def twaManifest = [
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'DPD Dhamma.Gift', // The application name.
     launcherName: 'DGift DPD', // The name shown on the Android Launcher.
-    themeColor: '#00131B', // The color used for the status bar.
-    themeColorDark: '#000000', // The color used for the dark status bar.
+    themeColor: '#1A8BDB', // The color used for the status bar.
+    themeColorDark: '#00131B', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
@@ -57,8 +57,8 @@ android {
         applicationId "gift.dhamma.dict.twa"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 4
+        versionName "4"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

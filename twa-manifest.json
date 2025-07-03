@@ -4,8 +4,8 @@
   "name": "DPD Dhamma.Gift",
   "launcherName": "DGift DPD",
   "display": "standalone",
-  "themeColor": "#00131B",
-  "themeColorDark": "#000000",
+  "themeColor": "#1A8BDB",
+  "themeColorDark": "#00131B",
   "navigationColor": "#000000",
   "navigationColorDark": "#000000",
   "navigationDividerColor": "#000000",
@@ -19,8 +19,8 @@
     "path": "/mnt/c/soft/twa/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "2",
-  "appVersionCode": 2,
+  "appVersionName": "4",
+  "appVersionCode": 4,
   "shortcuts": [
     {
       "name": "Dhamma.Gift",
@@ -71,5 +71,5 @@
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
   "protocolHandlers": [],
-  "appVersion": "2"
+  "appVersion": "4"
 }
