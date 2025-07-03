@@ -1,7 +1,7 @@
 {
   "packageId": "gift.dhamma.dict.twa",
   "host": "dict.dhamma.gift",
-  "name": "DPD with Dhamma.Gift UI improvements",
+  "name": "DPD Dhamma.Gift",
   "launcherName": "DGift DPD",
   "display": "standalone",
   "themeColor": "#00131B",
@@ -16,7 +16,7 @@
   "iconUrl": "https://dict.dhamma.gift/static/dpd-logo.svg",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "/mnt/c/soft/twa-dpd/android.keystore",
+    "path": "/mnt/c/soft/twa/android.keystore",
     "alias": "android"
   },
   "appVersionName": "1",
@@ -29,6 +29,19 @@
       "chosenIconUrl": "https://dict.dhamma.gift/static/dg_icon_white-192.png"
     },
     {
+      "name": "Aksharamukha.com",
+      "shortName": "Aksharamukha.com",
+      "url": "https://dict.dhamma.gift/static/openDG.html?url=https://www.aksharamukha.com/converter",
+      "chosenIconUrl": "https://dict.dhamma.gift/static/dpd-dark-icon.svg"
+    },
+
+    {
+      "name": "Dharmamitra.org",
+      "shortName": "Dharmamitra.org",
+      "url": "https://dict.dhamma.gift/static/openDG.html?url=https://dharmamitra.org/",
+      "chosenIconUrl": "https://dict.dhamma.gift/static/maniIcon.png"
+    },
+    {
       "name": "DPD Russian",
       "shortName": "DPD Russian",
       "url": "https://dict.dhamma.gift/ru/",
@@ -38,11 +51,7 @@
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://dict.dhamma.gift/static/manifest.json",
   "fallbackType": "customtabs",
-  "features": {
-    "playBilling": {
-      "enabled": true
-    }
-  },
+  "features": {},
   "alphaDependencies": {
     "enabled": true
   },
